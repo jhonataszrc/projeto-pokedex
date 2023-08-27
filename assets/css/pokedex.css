@@ -26,7 +26,7 @@
 .pokemon .name {
     color: #fff;
     margin-bottom: 0;
-    font-size: ;
+
 
 }
 
@@ -72,9 +72,16 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 800px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         margin: 0 auto;
     }
 }
